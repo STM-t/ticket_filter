@@ -1,0 +1,9 @@
+[
+  {"email": "ceo@company.com", "status": "L1", "weight": 2.0, "position": "CEO"},
+  {"email": "it_director@company.com", "status": "L2", "weight": 1.8, "position": "IT Director"},
+  {"email": "head_sales@company.com", "status": "L2", "weight": 1.8, "position": "Head of Sales"},
+  {"email": "accountant@company.com", "status": "L3", "weight": 1.5, "position": "Chief Accountant"},
+  {"email": "engineer@company.com", "status": "L4", "weight": 1.2, "position": "Engineer"},
+  {"email": "manager@company.com", "status": "L5", "weight": 1.0, "position": "Manager"},
+  {"email": "intern@company.com", "status": "L5", "weight": 0.8, "position": "Intern"}
+]
