@@ -1,16 +1,16 @@
 ### Project Structure
 
 ticket_filter_system/
-├── requirements.txt          # Зависимости
-├── hierarchy.json            # Иерархия пользователей
-├── utils.py                  # Утилиты предобработки
-├── train.py                  # Обучение модели + генерация датасета
-├── app.py                    # Flask веб-приложение
-├── models/                   # Папка для сохранённых моделей
+├── requirements.txt          
+├── hierarchy.json            
+├── utils.py                  
+├── train.py                  
+├── app.py                    
+├── models/                   
 │   ├── model.pkl
 │   └── vectorizer.pkl
 ├── templates/
-│   └── index.html            # Веб-форма
+│   └── index.html            
 ├── static/
-│   └── style.css             # Стили (опционально)
-└── README.md                 # Документация
+│   └── style.css             
+└── README.md                 
