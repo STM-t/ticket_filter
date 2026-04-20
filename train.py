@@ -339,7 +339,6 @@ def train_model(df: pd.DataFrame, test_size: float = 0.2):
         max_iter=1000,
         random_state=42,
         solver='lbfgs',
-        multi_class='multinomial'
     )
     
     model_group.fit(X_train_vec, y_train)

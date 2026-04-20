@@ -36,7 +36,7 @@ try:
     from pymorphy3 import MorphAnalyzer
 except ImportError:
     try:
-        from pymorphy2 import MorphAnalyzer
+        from pymorphy3 import MorphAnalyzer
     except ImportError:
         print("❌ Установите pymorphy3: pip install pymorphy3 pymorphy3-dicts-ru", file=sys.stderr)
         sys.exit(1)
